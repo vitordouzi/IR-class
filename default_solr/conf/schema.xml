@@ -81,11 +81,11 @@
 
     <!--
     Similarity default:
-        <similarity class="solr.BM25SimilarityFactory">
+        <similarity class="solr.BM25SimilarityFactory"/>
     More similarities:
-        <similarity class="solr.ClassicSimilarityFactory">
-        <similarity class="solr.LMDirichletSimilarityFactory">
-        <similarity class="solr.LMJelinekMercerSimilarityFactory">
+        <similarity class="solr.ClassicSimilarityFactory"/>
+        <similarity class="solr.LMDirichletSimilarityFactory"/>
+        <similarity class="solr.LMJelinekMercerSimilarityFactory"/>
     -->
 
 </schema>
