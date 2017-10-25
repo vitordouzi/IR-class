@@ -79,4 +79,13 @@
     <field name="content_pos_off" type="text" indexed="true" stored="true" termVectors="true" termPositions="true" termOffsets="true"/>
     <field name="content_off" type="text" indexed="true" stored="true" termVectors="true" termOffsets="true"/>
 
+    <!--
+    Similarity default:
+        <similarity class="solr.BM25SimilarityFactory">
+    More similarities:
+        <similarity class="solr.ClassicSimilarityFactory">
+        <similarity class="solr.LMDirichletSimilarityFactory">
+        <similarity class="solr.LMJelinekMercerSimilarityFactory">
+    -->
+
 </schema>
